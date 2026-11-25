@@ -1,0 +1,1 @@
+try{var __t=localStorage.getItem("proverdz-theme");if(!__t)__t=(window.matchMedia&&matchMedia("(prefers-color-scheme: dark)").matches)?"dark":"light";document.documentElement.setAttribute("data-theme",__t)}catch(e){}

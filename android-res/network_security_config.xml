@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+  <!-- Сертификат Минцифры доверяется только для серверов GigaChat, остальные сайты проверяются как обычно -->
+  <domain-config>
+    <domain includeSubdomains="true">gigachat.devices.sberbank.ru</domain>
+    <domain includeSubdomains="true">ngw.devices.sberbank.ru</domain>
+    <trust-anchors>
+      <certificates src="system" />
+      <certificates src="@raw/russian_ca" />
+    </trust-anchors>
+  </domain-config>
+</network-security-config>

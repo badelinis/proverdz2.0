@@ -1,0 +1,6 @@
+{
+  "appId": "ru.proverdz.app",
+  "appName": "Проверь Д/З",
+  "webDir": "www",
+  "plugins": { "CapacitorHttp": { "enabled": true } }
+}
